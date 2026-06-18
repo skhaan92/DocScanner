@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — DocScanner</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a2e;
+      line-height: 1.8;
+    }
+
+    a { color: #1565C0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    nav {
+      background: #1565C0;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-brand { color: #fff; font-size: 20px; font-weight: 700; letter-spacing: 0.5px; }
+    .nav-links a { color: rgba(255,255,255,0.85); font-size: 14px; font-weight: 500; }
+    .nav-links a:hover { color: #fff; text-decoration: none; }
+
+    .hero {
+      background: #1565C0;
+      color: #fff;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 32px; font-weight: 700; margin-bottom: 8px; }
+    .hero p { opacity: 0.85; font-size: 15px; }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 40px 36px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1565C0;
+      margin: 36px 0 10px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #E3F2FD;
+    }
+    h2:first-child { margin-top: 0; }
+
+    p { font-size: 15px; color: #333; margin-bottom: 12px; }
+
+    ul {
+      margin: 8px 0 12px 20px;
+      font-size: 15px;
+      color: #333;
+    }
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: #E3F2FD;
+      border-left: 4px solid #1565C0;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 16px 0;
+      font-size: 15px;
+      color: #1a1a2e;
+    }
+
+    .updated {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 28px;
+    }
+
+    footer {
+      background: #1a1a2e;
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 13px;
+    }
+    footer a { color: rgba(255,255,255,0.75); }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">DocScanner</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Privacy Policy</h1>
+  <p>We believe your documents are yours — private and secure.</p>
+</div>
+
+<div class="container">
+  <div class="card">
+    <p class="updated">Last updated: June 18, 2026</p>
+
+    <div class="highlight">
+      DocScanner processes all documents entirely on your device. We do not collect, store, or transmit your documents or personal data to any external server.
+    </div>
+
+    <h2>1. Information we collect</h2>
+    <p>DocScanner does not collect any personally identifiable information by default. The only data handled by the app is:</p>
+    <ul>
+      <li><strong>Documents and images</strong> you scan or import — stored locally on your device only.</li>
+      <li><strong>App preferences</strong> (e.g. view settings, folder names) — stored locally using Android's DataStore.</li>
+      <li><strong>Google account email</strong> — only if you choose to sign in with Google Drive, used solely to identify your Drive connection within the app.</li>
+    </ul>
+
+    <h2>2. Camera and storage permissions</h2>
+    <p>DocScanner requests the following permissions:</p>
+    <ul>
+      <li><strong>Camera</strong> — to scan physical documents. Camera data is processed on-device and never transmitted.</li>
+      <li><strong>Storage / Media</strong> — to read files you choose to import and to save scanned PDFs to your device.</li>
+    </ul>
+    <p>These permissions are used solely to provide scanning and file management features. You can revoke them at any time in your device settings.</p>
+
+    <h2>3. Google Drive integration</h2>
+    <p>If you choose to connect Google Drive, the app uses Google's official OAuth 2.0 sign-in. This gives the app permission to:</p>
+    <ul>
+      <li>Upload documents you explicitly choose to back up.</li>
+      <li>List and download files previously uploaded by DocScanner.</li>
+    </ul>
+    <p>The app only accesses files it has created (using the <code>drive.file</code> scope). It cannot read your entire Google Drive. You can revoke access at any time via your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions page</a>.</p>
+
+    <h2>4. How we use your information</h2>
+    <p>We do not use your information for any purpose beyond operating the app features you explicitly use. Specifically:</p>
+    <ul>
+      <li>We do not sell your data.</li>
+      <li>We do not share your data with third parties.</li>
+      <li>We do not use your data for advertising.</li>
+      <li>We do not run analytics or tracking of any kind.</li>
+    </ul>
+
+    <h2>5. Data storage and security</h2>
+    <p>All scanned documents and app data are stored locally on your device in the app's private storage directory. They are not accessible to other apps without your permission.</p>
+    <p>If you enable cloud backup, your files are stored in your own Google Drive account, subject to Google's privacy policy and security practices.</p>
+
+    <h2>6. Data retention</h2>
+    <p>Your documents remain on your device until you delete them. Uninstalling DocScanner removes all locally stored app data. Cloud-backed files in your Google Drive are not automatically deleted on uninstall — you can manage them directly in Google Drive.</p>
+
+    <h2>7. Children's privacy</h2>
+    <p>DocScanner is not directed at children under the age of 13. We do not knowingly collect any information from children. If you believe a child has provided personal information through the app, please contact us so we can address it.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>9. Contact us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
+    <p><a href="mailto:s.khaan92@gmail.com">s.khaan92@gmail.com</a></p>
+  </div>
+</div>
+
+<footer>
+  <p><a href="index.html">Home</a> &nbsp;·&nbsp; <a href="mailto:s.khaan92@gmail.com">Contact</a></p>
+  <p style="margin-top:8px">&copy; 2026 DocScanner. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
